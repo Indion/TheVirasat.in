@@ -1,0 +1,197 @@
+.hero{
+    background-image: url(about-hero.jpg);
+    background-size: cover;
+    color: white;
+}
+.hero button{
+    color: white;
+}
+.main-content{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.main-content .team h3{
+    font-family:'Montserrat', sans-serif;
+}
+.logo-01{
+    width: 100vw;
+    height: 40vh;
+    justify-content: center;
+    display: flex;
+}
+.logo-01 img{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+}
+.future{
+    width: 100vw;
+    margin-top: 40px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.future p{
+    margin: 20px;
+    text-align: center;
+}
+@media (max-width:560px){
+    .main-content{
+        height: max-content;
+        text-align: center;
+    }
+    .future{
+        margin-bottom: 40vh;
+    }
+    .logo-01 img{
+        width: 80vw;
+    }
+}
+@media (max-height:400px){
+    .main-content{
+        text-align: center;
+        height: max-content;
+    }
+    .future{
+        height: 80vh;
+    }
+}
+@media (max-height:300px){
+    .main-content{
+        text-align: center;
+        height: max-content;
+    }
+    .future{
+        height: max-content;
+    }
+}
+.ques{
+    width: max-content;
+    height:max-content;
+}
+.ques p{
+    width: 100vw;
+    height: max-content;
+    font-size: 45px;
+    padding: 30px;
+    text-align: center;
+}
+.ques p span{
+    font-weight: bold;
+    color: #ff8100;
+}
+@media (max-width:600px){
+    .ques p{
+        font-size: 25px;
+    }
+}
+@media (max-width:360px){
+    .ques p{
+        padding: 0px;
+        font-size: 18px;
+    }
+}
+.perks{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.perks .p1{
+    width: auto;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    align-items: center;
+}
+#head-tit{
+    width: 100vw;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.perks .p1 p{
+    width: 20vw;
+}
+@media (max-width:680px){
+    .perks{
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        justify-content: center;
+    }
+    .perks .p1{
+        width: 70vw;
+        align-items: center;
+    }
+    .perks .p1 p{
+        width: 50vw;
+    }
+}
+.sell1{
+    background-image: url(seller.jpg);
+    width: 100vw;
+    height: max-content;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sell1 p{
+    width: 40vw;
+    font-size: 35px;
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@media (max-width:650px){
+    .sell1 p{
+        width: 80vw;
+    }
+}
+.sell2{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding :20px;
+}
+.sell2 p{
+    font-size: 25px;
+    width: 45vw;
+    height: max-content;
+    text-align: center;
+    border-bottom: solid 2px #ff8100;
+    border-top: solid 2px #ff8100;
+}
+@media(max-width:550px){
+    .sell2 p{
+        width: 100vw;
+    }
+}
+.new{
+    background-image: url(gems-hero.jpg);
+}
+.new button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    cursor: pointer;
+}
